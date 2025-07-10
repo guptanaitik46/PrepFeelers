@@ -179,9 +179,11 @@ npm run dev
 
 
 📜 License
+
 This project is licensed under the MIT License.
 
 📬 Contact
+
 Made with ❤️ by Naitik Gupta
 
 📧 Reach out for feedback, collaboration, or queries.
