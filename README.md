@@ -1,4 +1,5 @@
 🧠 PrepFeelers – CBSE Class 10th PYQs Test Generator using AI and get Detailed Feedback and analysis using AI
+
 <img width="1722" height="1478" alt="image" src="https://github.com/user-attachments/assets/4768fcc7-ae05-4066-ba3d-15e75aed0fcc" />
 
 📌 One-stop solution to practice, analyze, and ace your CBSE Class 10th Board Exams with confidence!
@@ -6,6 +7,7 @@
 PrepFeelers is a full-stack React app that generates custom CBSE Class 10th PYQ-based tests using Google Gemini AI. It’s designed to simulate the real board exam experience — from timed test papers to chapter-wise feedback and smart performance analysis with secured login/logout.
 
 🌟 Key Features
+
 📝 Test Configuration
 🔐 Secure login system (Google, phone, email) via Clerk – test progress is user-specific
 
@@ -18,6 +20,7 @@ PrepFeelers is a full-stack React app that generates custom CBSE Class 10th PYQ-
 ✅ Pick marks per question: 1–5 or Mixed
 
 ✅ Select duration: 15 mins to 3 hours ⏱️
+
 
 
 🔄 Seamless Login / Logout
@@ -48,6 +51,8 @@ Year
 
 Question Type
 
+
+
 ⚡ Smart AI-Powered Question Generation
 🤖 Powered by Gemini AI 
 
@@ -62,6 +67,8 @@ Subject
 Marks per Question
 
 Year 
+
+
 
 🛠️ Fallback to demo/sample mode if AI is unavailable
 
@@ -88,6 +95,7 @@ Total marks
 
 Performance summary
 
+
 📥 Downloadable PDF Report to save your performance and use it later for improvement
 🧾 Auto-generated PDF feedback report with:
 
@@ -102,6 +110,8 @@ Marks, percentage, and grade
 🖨️ One-click Print or Save PDF
 
 🎓 Perfect for offline revision or sharing with teachers/mentors
+
+
 
 💡 Why PrepFeelers?
 “PYQs are the most important part of board exam preparation. But what if students could practice them with smart filters, detailed feedback, and printable reports? That’s PrepFeelers.”
@@ -138,14 +148,17 @@ Copy
 Edit
 # Clone the repo
 git clone https://github.com/guptanaitik46/PrepFeelers.git
+
 cd PrepFeelers
+
+set up your .env file.
 
 # Install dependencies
 npm install
 
 # Start the development server
 npm run dev
-No .env setup needed! API key is already integrated inside the backend securely.
+
 
 📜 License
 This project is licensed under the MIT License.
