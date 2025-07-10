@@ -1,7 +1,7 @@
 import React from 'react';
 import { SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
 import { BookOpen } from 'lucide-react';
-import cfLogo from '../assets/cf.png';
+import cfLogo from '../assets/cfs.png';
 
 const Header: React.FC = () => {
   return (
@@ -38,4 +38,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header; // ✅ This was missing!
+export default Header; 
