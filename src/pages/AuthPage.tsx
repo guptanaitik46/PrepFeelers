@@ -6,8 +6,8 @@ const AuthPage: React.FC = () => {
   const [isSignUp, setIsSignUp] = useState(false);
 
   return (
-    <div className="min-h-[80vh] flex items-center justify-center">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <div className="min-h-[80vh] flex items-center justify-center px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
         {/* Left side - Features */}
         <div className="space-y-8">
           <div>
@@ -55,45 +55,33 @@ const AuthPage: React.FC = () => {
         </div>
 
         {/* Right side - Auth */}
-        <div className="bg-white rounded-lg shadow-xl p-8">
-          <div className="text-center mb-6">
-            <h2 className="text-2xl font-bold text-gray-800 mb-2">
-              {isSignUp ? 'Create Account' : 'Welcome Back'}
-            </h2>
-            <p className="text-gray-600">
-              {isSignUp ? 'Start your CBSE preparation journey' : 'Continue your preparation'}
-            </p>
-          </div>
+        <div className="flex justify-center items-center px-4 lg:px-12">
+          <div className="bg-white rounded-lg shadow-xl p-6 sm:p-8 w-full max-w-md">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">
+                {isSignUp ? 'Create Account' : 'Welcome Back'}
+              </h2>
+              <p className="text-gray-600">
+                {isSignUp ? 'Start your CBSE preparation journey' : 'Continue your preparation'}
+              </p>
+            </div>
 
-          <div className="flex justify-center">
-            {isSignUp ? (
-              <SignUp 
-                appearance={{
-                  elements: {
-                    rootBox: "w-full",
-                    card: "shadow-none border-0"
-                  }
-                }}
-              />
-            ) : (
-              <SignIn 
-                appearance={{
-                  elements: {
-                    rootBox: "w-full",
-                    card: "shadow-none border-0"
-                  }
-                }}
-              />
-            )}
-          </div>
+            <div className="flex justify-center">
+              {isSignUp ? (
+                <SignUp />
+              ) : (
+                <SignIn />
+              )}
+            </div>
 
-          <div className="text-center mt-6">
-            <button
-              onClick={() => setIsSignUp(!isSignUp)}
-              className="text-blue-600 hover:text-blue-700 text-sm font-medium"
-            >
-              {isSignUp ? 'Already have an account? Sign in' : "Don't have an account? Sign up"}
-            </button>
+            <div className="text-center mt-6">
+              <button
+                onClick={() => setIsSignUp(!isSignUp)}
+                className="text-blue-600 hover:text-blue-700 text-sm font-medium"
+              >
+                {isSignUp ? 'Already have an account? Sign in' : "Don't have an account? Sign up"}
+              </button>
+            </div>
           </div>
         </div>
       </div>
