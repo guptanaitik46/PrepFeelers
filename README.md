@@ -11,7 +11,8 @@
 PrepFeelers is a fullly responsive React app that generates custom CBSE Class 10th PYQ-based tests using Google Gemini AI. It’s designed to simulate the real board exam experience — from timed test papers to chapter-wise feedback and smart performance analysis with secured login/logout.
 
 
-🌟 Key Features
+🌟 Key Features :
+
 
 📝 Test Configuration
 
@@ -61,6 +62,7 @@ Question Type
 
 
 
+
 ⚡ Smart AI-Powered Question Generation
 
 🤖 Powered by Gemini AI 
@@ -106,6 +108,7 @@ Performance summary
 
 
 📥 Downloadable PDF Report to save your performance and use it later for improvement
+
 🧾 Auto-generated PDF feedback report with:
 
 All your answers (correct/wrong/unanswered)
@@ -123,6 +126,7 @@ Marks, percentage, and grade
 
 
 💡 Why PrepFeelers?
+
 “PYQs are the most important part of board exam preparation. But what if students could practice them with smart filters, detailed feedback, and printable reports? That’s PrepFeelers.”
 
 PrepFeelers isn’t just a test generator — it’s a personal board exam simulator, built for real success:
@@ -135,21 +139,26 @@ PrepFeelers isn’t just a test generator — it’s a personal board exam simul
 
 🧠 Uses AI to ensure relevant, high-quality questions
 
-📸 Screenshots
-(Add your own screenshots here for homepage, test view, feedback, etc.)
 
-🛠️ Tech Stack
-Frontend: React + TypeScript + Vite
+🛠️ Tech Stack Used : 
 
-Styling: Tailwind CSS
 
-AI Integration: Gemini 1.5 Flash via @google/generative-ai
+| Layer                      | Technology                                             |
+| -------------------------- | ------------------------------------------------------ |
+| **Frontend**               | React, TypeScript, Vite                                |
+| **Styling**                | Tailwind CSS, CSS Modules                              |
+| **AI Integration**         | Gemini 1.5 Flash via `@google/generative-ai`           |
+| **Authentication**         | Clerk (Google, Phone, Email/Password login)            |
+| **PDF Export**             | jsPDF, html2canvas                                     |
+| **State Management**       | React Context API + Reducer (for test logic and timer) |
+| **Form Handling**          | Controlled Components + useState                       |
+| **Routing**                | React Router DOM                                       |
+| **Build Tools**            | Vite, PostCSS, Eslint                                  |
+| **Environment Management** | dotenv (`.env` for managing secrets like API keys)     |
+| **Version Control**        | Git + GitHub                                           |
+| **Deployment**             | Netlify (CI/CD via GitHub integration)                 |
 
-PDF Export: jsPDF + html2canvas
 
-Deployment: Netlify
-
-Auth : Clerk (as needed)
 
 🚀 Local Setup Instructions
 bash
