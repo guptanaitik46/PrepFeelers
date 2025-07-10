@@ -9,7 +9,6 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            {/* ✅ Clickable logo with YouTube link */}
             <a
               href="https://www.youtube.com/@conceptfeelers"
               target="_blank"
@@ -18,7 +17,7 @@ const Header: React.FC = () => {
             >
               <img src={cfLogo} alt="CF Logo" className="h-20 w-20 rounded-md" />
               <div>
-                <h1 className="text-2xl font-bold">Testify by CF</h1>
+                <h1 className="text-2xl font-bold">PrepFeelers</h1>
                 <p className="text-blue-200 text-sm">Ace your Class 10th Board Exams</p>
               </div>
             </a>
