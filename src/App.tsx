@@ -5,7 +5,7 @@ import Header from './components/Header';
 import AuthPage from './pages/AuthPage';
 import TestPage from './pages/TestPage';
 import FeedbackPage from './pages/FeedbackPage';
-import { TestProvider } from './Context/TestContext';
+import { TestProvider } from './context/TestContext';
 
 function App() {
   return (
