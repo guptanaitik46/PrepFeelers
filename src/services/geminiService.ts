@@ -98,7 +98,7 @@ Generate exactly ${config.questionCount} MCQ questions following this format. En
       throw new Error('Invalid Gemini API key. Please check your API key in the .env file and ensure it\'s valid. Get a new key from: https://makersuite.google.com/app/apikey');
     }
     
-    throw new Error('Failed to generate questions. Please try again. If your daily limit has been ed, you can try again after 24 hours.');
+    throw new Error('Failed to generate questions. Please try again. If your daily limit has been reached, you can try again after 24 hours.');
   }
 };
 
