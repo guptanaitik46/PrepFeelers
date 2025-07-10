@@ -7,12 +7,14 @@
 
 
 📚 What is PrepFeelers?
+
 PrepFeelers is a full-stack React app that generates custom CBSE Class 10th PYQ-based tests using Google Gemini AI. It’s designed to simulate the real board exam experience — from timed test papers to chapter-wise feedback and smart performance analysis with secured login/logout.
 
 
 🌟 Key Features
 
 📝 Test Configuration
+
 🔐 Secure login system (Google, phone, email) via Clerk – test progress is user-specific
 
 ✅ Select subjects: Maths, Physics, Chemistry, Biology
@@ -28,6 +30,7 @@ PrepFeelers is a full-stack React app that generates custom CBSE Class 10th PYQ-
 
 
 🔄 Seamless Login / Logout
+
 👤 Personalized test sessions and feedback
 
 🧾 Feedback PDFs are tagged to the user
@@ -35,6 +38,7 @@ PrepFeelers is a full-stack React app that generates custom CBSE Class 10th PYQ-
 🔓 Quick login/logout from the navbar
 
 📄 Real-Time Test Page
+
 ⏳ Live Timer Display at the top of test page
 
 ⏰ 5-minute remaining warning
@@ -58,6 +62,7 @@ Question Type
 
 
 ⚡ Smart AI-Powered Question Generation
+
 🤖 Powered by Gemini AI 
 
 📚 Generates authentic-style CBSE Previous Year questions
